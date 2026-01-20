@@ -12,7 +12,7 @@ url="http://eduke32.com/"
 license=('GPL' 'custom: BUILD')
 options=('!debug' 'strip')
 depends=('libvpx' 'sdl2' 'flac' 'libvorbis' 'alsa-lib')
-makedepends=('mesa' 'glu')
+makedepends=('mesa' 'glu' 'gtk2')
 optdepends=('freepats-general-midi: a free soundfont for music'
             'fluidsynth: alternative midi sequencer'
             'eduke32-shareware-episode: Duke Nukem 3D Demo')
