@@ -9,11 +9,11 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     alsa-lib  \
     flac      \
+	glu       \
+    libvorbis \
+    libvpx
 	#gcr	  \
 	#gd		  \
-    glu       \
-    libvorbis \
-    libvpx    
 	#libxaw
 
 echo "Installing debloated packages..."
