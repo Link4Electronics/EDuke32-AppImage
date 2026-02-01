@@ -9,6 +9,7 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     alsa-lib  \
     flac      \
+	gd		  \
     glu       \
     libvorbis \
     libvpx    \
